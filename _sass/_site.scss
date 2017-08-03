@@ -4,6 +4,12 @@
           box-sizing: border-box;
 }
 
+#profile-img {
+  width: 40px;
+  margin: 0px;
+  display: inline;
+}
+
 html {
   font-family: $base-font;
   font-size: $base-font-size;
@@ -198,7 +204,7 @@ body {
 
     &-title {
       margin-bottom: .3rem;
-      font-size : 1.8rem;
+      font-size : 1.4rem;
       font-weight: 600;
     }
 
@@ -211,7 +217,7 @@ body {
     &-desc {
       color: $base-color;
       margin-bottom: .25rem;
-      font-size :1rem;
+      font-size : 0.8rem;
     }
   }
 
