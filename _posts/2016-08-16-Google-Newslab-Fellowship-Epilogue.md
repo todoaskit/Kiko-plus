@@ -1,11 +1,14 @@
 ---
-layout: post
 title: 구글 뉴스랩 펠로우십 15/16 후기
+date: 2016-08-16 00:00:00 +09:00
+tags:
+- google newslab fellowship
+- journalism
+layout: post
 author: Dongkwan Kim
-image: /assets/images/Google-Newslab-Fellowship-Epilogue/google-news-lab.png
-description: 구글 뉴스랩 펠로우십이 끝난 지 벌써 4개월째인데 이제야 후기를 쓴다. 계기는 지난 5월 한국언론진흥재단에서 한 발표였다. 발표 자료를 만들다가 언뜻 펠로우십에서 코드와 씨름하는 동안 들었던 내 생각을 어디에 적어놓았다거나 말한 적이 없다는 것을 깨달았다.
-date: 2016-08-16
-tags: [google newslab fellowship, journalism]
+image: "/assets/images/Google-Newslab-Fellowship-Epilogue/google-news-lab.png"
+description: 구글 뉴스랩 펠로우십이 끝난 지 벌써 4개월째인데 이제야 후기를 쓴다. 계기는 지난 5월 한국언론진흥재단에서 한 발표였다.
+  발표 자료를 만들다가 언뜻 펠로우십에서 코드와 씨름하는 동안 들었던 내 생각을 어디에 적어놓았다거나 말한 적이 없다는 것을 깨달았다.
 comments: true
 share: true
 ---

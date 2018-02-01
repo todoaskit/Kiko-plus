@@ -1,80 +1,59 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
-# Basic
-name:               "Dongkwan Kim's Blog"
-profile:            https://avatars2.githubusercontent.com/u/14350049
-
-author:
-  facebook:         dongkwan.kim.todoaskit
-  github:           todoaskit
-  email:            todoaskit@gmail.com
-
-copyright:
-  year:             2017
-  name:             Dongkwan Kim
-
-# Google-analytics UA-79719474-1
-google-analytics:
-  id:               "UA-79719474-1"
-
-# Disqus
-disqus:
-  id:               "dongkwans-blog"
-
-# URL
-url:                "https://todoaskit.github.io/" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:title/
-
-# Pagination
-paginate:           5
-paginate_path:      /page:num/
-
-# Markdown
-markdown:           kramdown
-kramdown:
-  input:            GFM
-
-# Navigation
-nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/todoaskit"
-
-# Sass
-sass:
-  sass_dir:         _sass
-  style:            :compressed
-
-# Scopes
+---
+title: Todoaskit.Github.Io
+timezone: Asia/Seoul
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+name: Dongkwan Kim's Blog
+profile: https://avatars2.githubusercontent.com/u/14350049
+author:
+  facebook: dongkwan.kim.todoaskit
+  github: todoaskit
+  email: todoaskit@gmail.com
+copyright:
+  year: 2017
+  name: Dongkwan Kim
+google-analytics:
+  id: UA-79719474-1
+disqus:
+  id: dongkwans-blog
+url: https://todoaskit.github.io/
+permalink: "/:title/"
+paginate: 5
+paginate_path: "/page:num/"
+markdown: kramdown
+kramdown:
+  input: GFM
+nav:
+- name: About
+  url: "/about"
+- name: Archive
+  url: "/archive"
+- name: Tags
+  url: "/tags"
+- name: Github
+  url: https://github.com/todoaskit
+sass:
+  sass_dir: _sass
+  style: :compressed
 gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-admin
-
-exclude:            [vendor]
+- jekyll-seo-tag
+- jekyll-paginate
+- jekyll-admin
+exclude:
+- vendor
