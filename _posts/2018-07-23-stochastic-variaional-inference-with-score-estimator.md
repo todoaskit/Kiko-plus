@@ -99,7 +99,7 @@ $$\eqalign{
       \cdot \left( \log \frac{q_{\theta}(x_i)}{p(x_i,y_0)} -B \right)
 }$$
 
-이것이 $$ \nabla_{\theta} \text{KL} [ q_{\theta}(x) \mid \mid p(x \mid y_0) ] $$ 와 같은 이유는 다음과 같다.
+이것이 $$ \nabla_{\theta} \text{KL} [ q_{\theta}(x) \vert \vert p(x \vert y_0) ] $$ 와 같은 이유는 다음과 같다.
 
 $$\eqalign{
       & \mathbb{E}_{x \sim q_{\theta}(x)} \left[
@@ -152,9 +152,9 @@ $$\eqalign{
 
 For the simplicity, let $$C$$ be $$ \left( \nabla_{\theta} \log(q_{\theta}(x)) \right) \cdot \left( \log \frac{q_{\theta}(x)}{p(x,y_0)} - B \right)$$.
 
-In this problem, we have to find $$B$$ that minimizes the variance of the estimate for $$N=1$$, which is $$\text{Variance}(C) = \mathbb{E}_{x \sim q_{\theta(x)}}[C^2] - \left( \nabla_{\theta} \text{KL} [ q_{\theta}(x) \mid \mid p(x \mid y_0 ) ] \right)^2$$.
+In this problem, we have to find $$B$$ that minimizes the variance of the estimate for $$N=1$$, which is $$\text{Variance}(C) = \mathbb{E}_{x \sim q_{\theta(x)}}[C^2] - \left( \nabla_{\theta} \text{KL} [ q_{\theta}(x) \vert \vert p(x \vert y_0 ) ] \right)^2$$.
 
-Because $$\left( \nabla_{\theta} \text{KL} [ q_{\theta}(x) \mid \mid p(x \mid y_0) ] \right)^2$$ is just a constant, we can conclude that $$\text{argmin}_{B} [ \text{Variance}(C) ] = \text{argmin}_{B} [ \mathbb{E}_{x \sim q_{\theta}(x)}[C^2] ]$$.
+Because $$\left( \nabla_{\theta} \text{KL} [ q_{\theta}(x) \vert \vert p(x \vert y_0) ] \right)^2$$ is just a constant, we can conclude that $$\text{argmin}_{B} [ \text{Variance}(C) ] = \text{argmin}_{B} [ \mathbb{E}_{x \sim q_{\theta}(x)}[C^2] ]$$.
 
 $$\eqalign{
       \mathbb{E}_{x \sim q_{\theta}(x)}[C^2] =
