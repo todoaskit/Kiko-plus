@@ -53,9 +53,9 @@ $$\eqalign{
 
 Variational Inference에서 가장 중요한 식은 Murphy 21.35, Bishop 10.9다.
 
-$$ \log q_j (\textbf{x}_j) = \mathbb{E}_{-q_j} \left[ \log \tilde(p) (\textbf{x}) \right] + C $$
+$$ \log q_j (\textbf{x}_j) = \mathbb{E}_{-q_j} \left[ \log \tilde{p} (\textbf{x}) \right] + C $$
 
-의미는, $$L(q_j)$$를 최대화하고, $$ KL(q_j \vert \vert exp ( \mathbb{E} \left[ \log \tilde(p) (\textbf{x}) \right])) $$ 를 최소화 하기위한 $$q_j$$의 optimal solution이다.
+의미는, $$L(q_j)$$를 최대화하고, $$ KL(q_j \vert \vert exp ( \mathbb{E} \left[ \log \tilde{p} (\textbf{x}) \right])) $$ 를 최소화 하기위한 $$q_j$$의 optimal solution이다.
 
 아래 첨자 $$-q_j$$는 $$q_j$$를 제외한 다른 factor에 대해서라는 뜻인데, 이 경우에서는 $$q_{\mu}$$와 $$q_{\lambda}$$ 밖에 없으므로,
 
