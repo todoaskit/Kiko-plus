@@ -10,6 +10,14 @@
   display: inline;
 }
 
+p > img {
+  color: red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 html {
   font-family: $base-font;
   font-size: $base-font-size;
