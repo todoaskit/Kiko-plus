@@ -1,5 +1,5 @@
 ---
-title: Todoaskit.Github.Io
+title: dongkwan-kim.github.io
 timezone: Asia/Seoul
 collections:
   posts:
@@ -23,7 +23,7 @@ name: Dongkwan Kim's Blog
 profile: https://avatars2.githubusercontent.com/u/14350049
 author:
   facebook: dongkwan.kim.todoaskit
-  github: todoaskit
+  github: dongkwan-kim
   twitter: _dongkwan_kim
 copyright:
   year: 2017
@@ -32,7 +32,7 @@ google-analytics:
   id: UA-79719474-1
 disqus:
   id: dongkwans-blog
-url: https://todoaskit.github.io/
+url: https://dongkwan-kim.github.io/
 permalink: "/:title/"
 paginate: 5
 paginate_path: "/page:num/"
@@ -47,7 +47,7 @@ nav:
 - name: Tags
   url: "/tags"
 - name: Github
-  url: https://github.com/todoaskit
+  url: https://github.com/dongkwan-kim
 sass:
   sass_dir: _sass
   style: :compressed

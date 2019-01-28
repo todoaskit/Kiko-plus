@@ -92,6 +92,6 @@ BBC의 [“Will a robot take your job”](http://www.bbc.com/news/technology-340
 덧붙여, 공학적 접근을 하지 않은 것이 매우 아쉽다. 이걸 여기에 놓으면 사람들이 누르겠지, 데이터를 이렇게 보여주면 잘 보겠지 등 내 멋대로 판단했다. 개발 시작하고 나서 시간이 없었으니 하고 싶었어도 못했을 것이다. 이걸 좀 잘해보겠다고 Juho Kim 교수님 인턴십에 지원했지만, 현재(2016.08.16)의 진행 상황을 살펴보았을 때 목표를 달성하지 못할 것 같은 불길함이 엄습한다.
 
 ## 관련 링크
-- [데모 페이지](http://todoaskit.github.io/google-newslab-nin/)
+- [데모 페이지](http://dongkwan-kim.github.io/google-newslab-nin/)
 - [구글 뉴스랩 펠로우십](http://newslabfellows.com/)
 - [Nin팀 발표 자료](http://newslabfellows.com/87/-%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C-Google-Newslab-NIN-X-%ED%95%9C%EA%B2%A8%EB%A0%88-21)
