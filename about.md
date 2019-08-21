@@ -5,4 +5,4 @@ permalink: "/about/"
 
 ## Dongkwan Kim
 ### Contact
-- [todoaskit@gmail.com](mailto:todoaskit@gmail.com)
+- [dongkwan.kim.cs@gmail.com](mailto:dongkwan.kim.cs@gmail.com)
